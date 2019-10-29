@@ -21,7 +21,7 @@ RANDOM=$$$(date +%s)
 while [ true ]
 do
   # Wait 30 minutes (30 * 60 = 1800 seconds). sleep 30m does not appear to work
-  sleep 4s
+  sleep 1800s
   randomTitleIndex=$[$RANDOM % ${#titles[@]}]
   title=${titles[$randomTitleIndex]}
 
